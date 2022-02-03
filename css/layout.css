@@ -20,6 +20,7 @@
 }
 
 .layout-main {
+    inline-size: 100%;
     block-size: calc(100vh - var(--bottomSize));
     min-block-size: var(--minBlockSize);
     overflow: auto;
@@ -32,4 +33,5 @@
 
 .layout-block {
     display: flex;
+    align-items: center;
 }
